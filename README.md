@@ -1,14 +1,34 @@
+---
+title: "Practical: AR Tags"
+has_children: false
+nav_order: 3
+parent: "Module 2: Computer Vision & Machine Learning"
+---
+
 # Introduction to AR Tags
+{: .no_toc }
+
+Learn how to generate and detect AR Tags using Python and OpenCV.
+{: .fs-6 .fw-300 }
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
 
 ## Requirements
 
-This example requires opencv-contrib-python, which has additional libraries that are not included in opencv-python. Install with the following command:
+This practical requires the library `opencv-contrib-python`, which has additional modules that are not included in `opencv-python`. Install with the following command:
 
 `pip3 install opencv-contrib-python`
 
 ## Generating AR Tags
 
-You can generate and print your own AR tags for any use case. ArUco contains a number of AR Tag Libraires
+You can generate and print your own AR tags for any use case. ArUco contains a number of AR Tag Libraires:
 * `DICT_4X4_100`
 * `DICT_4X4_1000`
 * `DICT_4X4_250`
