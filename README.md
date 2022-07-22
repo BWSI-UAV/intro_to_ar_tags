@@ -1,24 +1,4 @@
----
-title: "Practical: AR Tags"
-has_children: false
-nav_order: 3
-parent: "Module 2: Computer Vision & Machine Learning"
----
-
 # Introduction to AR Tags
-{: .no_toc }
-
-Learn how to generate and detect AR Tags using Python and OpenCV.
-{: .fs-6 .fw-300 }
-
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-1. TOC
-{:toc}
-</details>
 
 ## Requirements
 
