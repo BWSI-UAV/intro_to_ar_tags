@@ -2,13 +2,13 @@
 
 ## Requirements
 
-This example requires opencv-contrib-python, which has additional libraries that are not included in opencv-python. Install with the following command:
+This practical requires the library `opencv-contrib-python`, which has additional modules that are not included in `opencv-python`. Install with the following command:
 
 `pip3 install opencv-contrib-python`
 
 ## Generating AR Tags
 
-You can generate and print your own AR tags for any use case. ArUco contains a number of AR Tag Libraires
+You can generate and print your own AR tags for any use case. ArUco contains a number of AR Tag Libraires:
 * `DICT_4X4_100`
 * `DICT_4X4_1000`
 * `DICT_4X4_250`
@@ -49,7 +49,7 @@ cv2.imwrite('DICT_ARUCO_ORIGINAL_id_{}_{}.png'.format(ID, SIZE), marker)
 
 ### CHALLENGE 1: Generating AR Tags
 Generate AR tags for the dictionary `DICT_APRILTAG_16H5` for ids `7, 18,` and `23`.
-Thses should be of size 500 pixels by 500 pixels.
+* These should be of size 500 pixels by 500 pixels.
 
 ## Detecting AR Tags
 The ArUco library has built-in functionality for detecting AR tags within images:
